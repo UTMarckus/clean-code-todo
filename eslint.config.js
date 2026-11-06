@@ -1,5 +1,5 @@
-import { defineConfig } from "eslint/config";
-import js from "@eslint/js";
+import { defineConfig } from 'eslint/config';
+import js from '@eslint/js';
 import globals from 'globals';
 import eslintConfigPrettier from 'eslint-config-prettier';
 
@@ -8,7 +8,7 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
     },
-    files: ["**/*.js"],
+    files: ['**/*.js'],
     plugins: {
       js,
     },
